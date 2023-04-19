@@ -1,0 +1,40 @@
+*{
+    margin:0%
+}
+@font-face{
+    font-family: font_pizza;
+    src: url(MADE\ TOMMY\ Black_PERSONAL\ USE.otf);
+}
+@font-face{
+    font-family: font_pizza2;
+    src: url(Hello\ Spring.ttf);
+}
+header{
+    height: 500px;
+    background-image: url(pizza1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+nav ul{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    color: azure;
+    align-items: center;
+
+}
+li{
+    font-family: font_pizza;
+    list-style-type: none;
+    font-size: 25px;
+    color:#FFFBEB;
+}
+h1{
+    color:bisque;
+    text-align: center;
+    font-family: font_pizza2;
+
+}
